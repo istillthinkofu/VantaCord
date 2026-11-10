@@ -1,1 +1,60 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VantaCord</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+
+    <aside class="servers">
+      <div class="logo">V</div>
+      <div class="server">🏠</div>
+      <div class="server">🎮</div>
+      <div class="server">💬</div>
+      <div class="server">🎵</div>
+      <div class="server">+</div>
+    </aside>
+
+    <aside class="channels">
+      <h2>VantaCord</h2>
+      <input placeholder="Find or start a conversation">
+
+      <h4>TEXT CHANNELS</h4>
+      <div class="channel active"># general</div>
+      <div class="channel"># announcements</div>
+      <div class="channel"># media</div>
+
+      <h4>VOICE CHANNELS</h4>
+      <div class="channel">🔊 General</div>
+    </aside>
+
+    <main class="chat">
+      <header>
+        <strong># general</strong>
+        <span>VantaCord community</span>
+      </header>
+
+      <section class="messages" id="messages">
+        <div class="welcome">
+          <h1>Welcome to #general!</h1>
+          <p>This is the beginning of the channel.</p>
+        </div>
+      </section>
+
+      <form id="messageForm">
+        <input id="messageInput"
+          placeholder="Message #general..."
+          autocomplete="off">
+        <button>Send</button>
+      </form>
+    </main>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
+
